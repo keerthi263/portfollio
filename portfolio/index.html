@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Keerthika M — Full Stack Developer & CS Student. Portfolio showcasing projects, skills, and contact." />
+  <title>Keerthika M | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header id="header">
+    <nav class="nav-container">
+      <a href="#hero" class="logo">KM<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero"     class="nav-link">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+      <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero">
+    <div class="hero-wrapper">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Keerthika M</h1>
+        <p class="hero-role"><span id="typed"></span><span class="blink">|</span></p>
+        <p class="hero-bio">
+          A Computer Science student passionate about building clean, functional
+          web applications. Currently seeking internships &amp; IT placements.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/24BCM526_Keerthika M Resume (1) (1).pdf" download class="btn btn-ghost">
+            <i class="fas fa-download"></i> Resume
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/"   target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:keerthimano2007@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-ring">
+          <img
+            src="assets/images/img1.jpeg"
+            alt="Keerthika M"
+            onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'260\' height=\'260\'%3E%3Crect fill=\'%236c63ff\' width=\'260\' height=\'260\' rx=\'130\'/%3E%3Ctext fill=\'%23fff\' font-family=\'Inter,sans-serif\' font-size=\'80\' font-weight=\'700\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dy=\'.35em\'%3EKM%3C/text%3E%3C/svg%3E'"
+          />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-head fade-up">
+        <p class="section-label">Who I am</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div class="about-layout">
+        <div class="about-left fade-up">
+          <p>
+            I'm a B.Sc Computer Science student at PSG College of Arts and Science (2024–2027),
+            building strong skills in full-stack development and database design. I love turning ideas into real, polished products.
+          </p>
+          <p>
+            Currently seeking internship and placement opportunities where I can
+            contribute meaningfully and grow as a developer.
+          </p>
+          <ul class="info-list">
+            <li><i class="fas fa-graduation-cap"></i><span>B.Sc.CS — PSG College of Arts and Science (2024–2027)</span></li>
+            <li><i class="fas fa-map-marker-alt"></i><span>Coimbatore, Tamil Nadu, India</span></li>
+            <li><i class="fas fa-briefcase"></i><span>Open to Internships &amp; Full-time Roles</span></li>
+            <li><i class="fas fa-envelope"></i><span>keerthimano2007@gmail.com</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head fade-up">
+        <p class="section-label">What I've built</p>
+        <h2>My <span>Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project-card fade-up">
+          <div class="project-icon" style="--c:#6c63ff;">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <div class="project-content">
+            <h3>Student Registration System</h3>
+            <p>Full-stack web app to manage student records with CRUD operations, search, and export features.</p>
+            <div class="tech-tags">
+              <span>Python</span><span>SQL</span><span>HTML</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/keerthi263/student-registration-form" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card fade-up">
+          <div class="project-icon" style="--c:#43e97b;">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio with smooth animations, dark theme, and modern glassmorphism design.</p>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card fade-up">
+          <div class="project-icon" style="--c:#f7971e;">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <div class="project-content">
+            <h3>Task Management App</h3>
+            <p>Productivity app with drag-and-drop tasks, priority labels, deadlines, and local storage persistence.</p>
+            <div class="tech-tags">
+              <span>JavaScript</span><span>CSS</span><span>LocalStorage</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/keerthi263/To-Do-List" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head fade-up">
+        <p class="section-label">What I work with</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-categories">
+
+        <div class="skill-category fade-up">
+          <p class="cat-label"><i class="fas fa-code"></i> Frontend</p>
+          <div class="skill-cards">
+            <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+            <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up">
+          <p class="cat-label"><i class="fas fa-server"></i> Backend &amp; DB</p>
+          <div class="skill-cards">
+            <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
+            <div class="skill-card"><i class="fas fa-database"></i><span>SQL</span></div>
+            <div class="skill-card"><i class="fas fa-database"></i><span>SQLite</span></div>
+            <div class="skill-card"><i class="fas fa-plug"></i><span>REST APIs</span></div>
+            <div class="skill-card"><i class="fas fa-leaf"></i><span>MongoDB</span></div>
+          </div>
+        </div>
+
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-head fade-up">
+        <p class="section-label">Let's talk</p>
+        <h2>Get In <span>Touch</span></h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-left fade-up">
+          <p>
+            I'm actively looking for internship and full-time opportunities.
+            Whether you have a question, a project idea, or just want to say hello
+            — my inbox is always open!
+          </p>
+          <ul class="contact-list">
+            <li>
+              <div class="c-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span>Email</span>
+                <a href="mailto:keerthimano2007@gmail.com">keerthimano2007@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <div class="c-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span>Phone</span>
+                <a href="tel:+919363603781">+91 9363603781</a>
+              </div>
+            </li>
+            <li>
+              <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span>Location</span>
+                <p>Coimbatore, Tamil Nadu, India</p>
+              </div>
+            </li>
+          </ul>
+          <div class="contact-socials">
+            <a href="https://github.com/"   target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:keerthimano2007@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="contact-right fade-up">
+          <form id="contact-form" novalidate>
+            <div class="field">
+              <label for="fname">Full Name</label>
+              <input type="text"  id="fname"  placeholder="Your full name" required />
+              <span class="field-err" id="fname-err"></span>
+            </div>
+            <div class="field">
+              <label for="femail">Email Address</label>
+              <input type="email" id="femail" placeholder="your@email.com" required />
+              <span class="field-err" id="femail-err"></span>
+            </div>
+            <div class="field">
+              <label for="fmsg">Message</label>
+              <textarea id="fmsg" rows="5" placeholder="Write your message here..." required></textarea>
+              <span class="field-err" id="fmsg-err"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+            <p class="form-success" id="form-success">✅ Message sent successfully!</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">KM<span>.</span></p>
+      <p class="footer-copy">© <span id="yr"></span> Keerthika M. Built with <i class="fas fa-heart"></i> using HTML, CSS &amp; JS.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/"   target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:keerthimano2007@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="top-btn" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
